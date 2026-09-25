@@ -91,8 +91,8 @@ do
   fi
 
     # p2, p3 map to register and address respectively
-    reg=p2
-    address=p3
+    reg=$p2
+    address=$p3
     # as per the 16-bit instruction, move the field to its correct position
     # we shift it as it will just be '8' in 16 bit represention otherwise, instead of our specific format from spec
 
